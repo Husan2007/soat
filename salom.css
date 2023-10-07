@@ -1,0 +1,390 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style: none;
+text-decoration: none;
+}
+
+/* .box {
+    border: 2px solid red;
+    background-color: rgb(17, 101, 255);
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 40px;
+    margin-left: 700px;
+}
+
+.box-2 {
+    transform: translateX(100px);
+    background-color: rgb(241, 136, 7);
+    transition: all .5s ease;
+    opacity: 0;
+}
+
+.box-3 {
+    transform: scale(.8);
+    background-color: rgb(0, 255, 42);
+    transition: all .5s ease;
+    opacity: 0;
+}
+
+.box-4 {
+    transform: translateX(-100px);
+    background-color: rgb(214, 9, 170);
+    transition: all .5s ease;
+    opacity: 0;
+}
+
+.box-5 {
+    transform: rotate(45deg);
+    background-color: rgb(218, 214, 17);
+    transition: all .5s ease;
+    opacity: 0;
+}
+
+.box-6 {
+    transform: translateY(100px);
+    background-color: rgb(8, 35, 36);
+    transition: all .5s ease;
+    opacity: 0;
+}
+
+.box-7 {
+    transform: translateY(-100px);
+    background-color: rgb(175, 2, 255);
+    transition: all .5s ease;
+    opacity: 0;
+}
+
+.box-8 {
+    transform: skew(50deg);
+    background-color: rgb(2, 255, 213);
+    transition: all .5s ease;
+    opacity: 0;
+    margin-bottom: 400px;
+} */
+
+/* ==============================================yangi================================================== */
+
+/* .card {
+    display: flex;
+} */
+
+/* ================input================== */
+
+/* .inp_top1 {
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.inp_top1 .box {
+   margin-left: 40px;  
+   font-size: 24px; 
+    background-color: rgb(240, 181, 55);
+    color:#fff;
+}
+
+.inp_top1 .box:hover {
+    box-shadow: 0px 0px 10px red;
+}
+
+.inp_top1 .btn {
+    font-size: 24px; 
+     background-color: rgb(29, 204, 6);
+     color:#fff;
+}
+
+.inp_top1 .btn:hover {
+    background-color: rgb(18, 19, 18);
+    box-shadow: 0px 0px 10px red;
+} */
+
+/* ================card================== */
+
+/* .card_1 {
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0px 0px 20px rgb(0, 153, 255);
+}
+
+.card_1 h1 {
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+}
+
+.card_1 p {
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.card_1 h4 {
+    font-size: 23px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card_1 button {
+    padding: 10px 30px;
+    box-shadow: 0px 0px 20px rgb(0, 153, 255);
+    background-color: transparent;
+    border: none;
+    margin-left: 100px;
+} */
+
+/* ==============================================yangi================================================== */
+
+.img {
+    background-image: url("https://th.bing.com/th/id/OIP.vfyUSGmSdj2aamdx79BXpAHaEK?w=295&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* header */
+
+header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li {
+    margin: 15px;
+
+}
+
+nav ul li {
+font-size: 20px;
+color: black;
+}
+
+.li_1 {
+    margin-right: 300px;
+    position: relative;
+}
+.li_1::before {
+    content: '';
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: rgb(255, 213, 0);
+    margin-left: 41px;
+    margin-top: 14px;
+    z-index: -1;
+}
+
+.li_1::after {
+    content: '';
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: rgb(255, 213, 0);
+    margin-left: -15px;
+    margin-top: 14px;
+    z-index: -1;
+}
+
+.li_1 a {
+    font-size: 30px;
+}
+
+nav ul li:nth-child(7) a{
+padding: 8px 30px; 
+border: 2px solid black;
+border-radius: 10px;
+}
+
+nav ul li ul {
+    position: absolute;
+    visibility: hidden;
+    width: auto;
+}
+
+nav ul li:hover ul {
+    visibility: visible;
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+nav ul li ul li {
+    margin: 5px;
+}
+
+nav ul li ul li a {
+    font-size: 20px;
+}
+/* header */
+/* section */
+.home_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.home_container .home_card {
+    width: 550px;
+    height: 100%;
+    padding: 20px;
+    margin: 40px;
+}
+
+.home_card h3 {
+    color: red;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.home_card h1 {
+    font-size: 80px;
+    padding: 10px;
+}
+
+.home_card p {
+    padding: 10px;
+}
+
+.home_mini_container {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    margin: 20px;
+}
+
+.home_mini_card {
+    margin: 20px;
+}
+
+.home_mini_card i {
+padding: 10px 10px;
+background-color: rgb(114, 51, 51);
+color: #fff;
+border-radius: 50%;
+font-size: 20px;
+box-shadow: 2px 5px 10px  rgb(114, 51, 51);
+} 
+
+.home_mini_card:first-child a {
+padding: 13px 30px;
+background-color: orange;
+color: #fff;
+border-radius: 10px;
+box-shadow: 5px 5px 10px rgb(124, 93, 52);
+}
+
+.home_mini_card:last-child a {
+color: #000;
+}
+
+.home_card img {
+    width: 700px;
+    height: 500px;
+}
+/* section */
+
+.cotigory_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+}
+
+.cotigory_card {
+    width: 200px;
+    height: 100%;
+    margin: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+.cotigory_card i {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.cotigory_card h4 {
+    padding: 5px;
+    font-size: 22px;
+}
+
+.cotigory_card p {
+    padding: 5px;
+}
+
+/* +++++++++++++ */
+
+.top_section {
+margin-top: 100px;
+}
+
+.top_text_container {
+    text-align: center;
+    padding: 10px;
+}
+
+.top_text_container h6 {
+    font-size: 25px;
+}
+
+.top_text_container h2 {
+    font-size: 40px;
+}
+
+.top_container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.top_card {
+    width: 250px;
+    height: 350px;
+    margin: 20px;
+    box-shadow: 0px 0px 20px green;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.top_card img {
+    width: 250px;
+    height: 250px;
+}
+
+.top_card .top_mony {
+    padding: 10px;
+}
+.top_card:hover{
+    transform: scale(1.1);
+    transition: all .5s ease;
+}
+.top_card img:hover{
+    transform: scale(0.9);
+    transition: all .7s ease;
+}
+
+
+
+
